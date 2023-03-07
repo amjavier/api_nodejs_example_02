@@ -11,5 +11,3 @@ router.get('/api/v1.0/stations', mainController.apiStations);
 router.get('/api/v1.0/tobs', mainController.apiTobs);
 router.get('/api/v1.0/temp/:start', mainController.apiStartTemp);
 router.get('/api/v1.0/temp/:start/:end', mainController.apiStartEndTemp);
-// router.get('/api/v1.0/tobs/:time/:date', mainController.reservation);
-// router.get('/api/availableTimes/:date', mainController.availableTimesApi);
