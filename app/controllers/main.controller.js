@@ -97,7 +97,7 @@ function apiStartTemp (req, res) {
     let avgTemp = math.mean(temps)
     // console.log(temps)
     // Return JSON
-    res.json({minTemp, maxTemp, avgTemp})
+    res.json({minTemp, avgTemp, maxTemp})
 }
 
 function apiStartEndTemp (req, res) {
