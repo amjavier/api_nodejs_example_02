@@ -92,8 +92,8 @@ function apiStartTemp (req, res) {
         temps.push(temperature[key].tobs);
     }
     // Calculations for minimum, maximum, and average
-    let minTemp = math.max(temps)
-    let maxTemp = math.min(temps)
+    let minTemp = math.min(temps)
+    let maxTemp = math.max(temps)
     let avgTemp = math.mean(temps)
     // console.log(temps)
     // Return JSON
